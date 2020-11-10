@@ -1,0 +1,20 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Variables
+	* Strings
+	* Funciones (argumentos, `return`)
+	* Declaraciones `if`
+	* Valores booleanos (`true`, `false`)
+
+    - Variables: En javascript las variables son como cajas a las cuales le damos un nombre, que nos servira para luego reutilizarlas, y también
+    les asignamos un valor. El valor asignado puede ser un numero, una cadena de texto u otro tipo de datos, tales como booleanos, null o undefined.
+    Las variables nos van a servir para realizar casi todo tipo de operacion dentro de nuestro programa, ya que necesitmos de esas pequeñas cajas,
+    que guarden la informacion que queremos utilizar a lo largo del codigo.
+    -Strings: Los strings son un tipo de dato de javascript. Se caracterizan por ser una cadena de texto de cualquier longitud, encerrada entre
+    comillas (sin ellas deja de ser un string).
+    -Funciones: Las funciones agrupan codigo, lo guarda en un espacio en memoria, y para utilizarlo es necesario ejecutarlo. Con las funciones
+    nos ahorramos escribir el mismo codigo reiteradas veces. Los argumentos son valores que nosotros le pasamos a la funcion, para que los utilice
+    dentro de la funcion para resolver cualquer operacion. Los argumentos se escriben en la ejecucion de la funcion. "return" es la forma que tenemos
+    para que el resultado de la funcion, este accesible para el resto del codigo.
+    -Declaraciones "if":
+    - Valores booleanos:
