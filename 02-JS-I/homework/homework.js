@@ -116,35 +116,35 @@ function elevar(num, exponent) {
 }
 // Redondea "num" y devuélvelo
 function redondearNumero(num) {
-  
-  
+  let result = Math.round(num)
+  return result
 }
  // Redondea "num" hacia arriba y devuélvelo
 function redondearHaciaArriba(num) {
- 
+ let result = Math.ceil(num)
   
 }
  // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
 function agregarSimboloExclamacion(str) {
- 
-  // Ejemplo: "hello world" pasaría a ser "hello world!"
+ let result = str + "!"
+ return result
   
 }
 // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
 function combinarNombres(nombre, apellido) {
-  
+  return nombre + apellido
   
   
 }
  // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
 function obtenerSaludo(nombre) {
- 
-  
+ let str = "Hola " + nombre + "!"
+  return str
 }
   // Retornar el area de un cuadrado teniendo su altura y ancho
 function obtenerAreaRectangulo(alto, ancho) {
-
+ return alto * ancho
 
 }
 
