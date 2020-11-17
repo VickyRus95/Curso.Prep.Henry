@@ -16,7 +16,7 @@ const nuevaResta = 10 - 5 === 5;
 const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === 1.08;
+const nuevoModulo = 21 % 5 === 1.5;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -82,7 +82,7 @@ function mayorQueCincuenta(num) {
 }
 // Obten el resto de la división de "x" entre "y"
 function obtenerResto(x, y) {
-  return x / y
+  return x % y
 }
   // Devuelve "true" si "num" es par
 function esPar(num) {
