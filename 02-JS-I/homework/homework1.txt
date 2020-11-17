@@ -10,11 +10,16 @@
     les asignamos un valor. El valor asignado puede ser un numero, una cadena de texto u otro tipo de datos, tales como booleanos, null o undefined.
     Las variables nos van a servir para realizar casi todo tipo de operacion dentro de nuestro programa, ya que necesitmos de esas pequeñas cajas,
     que guarden la informacion que queremos utilizar a lo largo del codigo.
+    
     -Strings: Los strings son un tipo de dato de javascript. Se caracterizan por ser una cadena de texto de cualquier longitud, encerrada entre
     comillas (sin ellas deja de ser un string).
+    
     -Funciones: Las funciones agrupan codigo, lo guarda en un espacio en memoria, y para utilizarlo es necesario ejecutarlo. Con las funciones
     nos ahorramos escribir el mismo codigo reiteradas veces. Los argumentos son valores que nosotros le pasamos a la funcion, para que los utilice
     dentro de la funcion para resolver cualquer operacion. Los argumentos se escriben en la ejecucion de la funcion. "return" es la forma que tenemos
     para que el resultado de la funcion, este accesible para el resto del codigo.
-    -Declaraciones "if":
-    - Valores booleanos:
+    
+    -Declaraciones "if": Es una estructura de control de flujo, por la cual le vamos a indicar al
+    codigo una condicion, si esa condicion se cumple, va a ejecutar la intruccion que le indiquemos entre corchetes.
+   
+    - Valores booleanos: true y false son los tipos de datos booleanos (indican verdadero o falso).

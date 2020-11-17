@@ -16,7 +16,7 @@ const nuevaResta = 10 - 5 === 5;
 const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === 1.05;
+const nuevoModulo = 21 % 5 === 1.08;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -122,6 +122,7 @@ function redondearNumero(num) {
  // Redondea "num" hacia arriba y devuélvelo
 function redondearHaciaArriba(num) {
  let result = Math.ceil(num)
+ return result
   
 }
  // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
@@ -132,7 +133,8 @@ function agregarSimboloExclamacion(str) {
 }
 // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
 function combinarNombres(nombre, apellido) {
-  return nombre + apellido
+  let resultado = nombre + " " + apellido;
+  return resultado
   
   
 }
