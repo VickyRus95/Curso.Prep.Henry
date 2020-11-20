@@ -1,0 +1,47 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`
+* `&&`, `||`, `!`
+
+*Bucle FOR: en programacion un bucle es una instruccion que indicamos en nuestro programa 
+para que una cierta secuencia se ejecute determinada cantidad de veces. Hasta que cierta condición
+se cumpla. 
+En particular, el bucle for nos permite indicar el numero maximo de veces que se va a ejecutar dicho bucle.
+Su sintaxis es:
+for (inicialización; condición; actualización) { 
+   	//sentencias a ejecutar en cada iteración 
+}
+for (i = 0; i =< 25; i++){
+    console.log ("I love Henry")
+}
+Esto va a imprimir en consola "I love Henry" 25 veces.
+
+Operadores Logicos
+
+&& (AND)
+Se utiliza en una condición para indicar si una expresion es verdadera/falsa y la otra expresion a comparar
+tambien lo es, ejecute cierto código. Por ejemplo:
+if (3 == '3' && 4 == '4') {
+    console.log ("Son iguales")
+} 
+En este caso es necesario que ambas condiciones se cumplan para que se ejecute el código.
+
+
+||
+Se utiliza en una condición para indicar que si una de las condiciones expresadas es verdadera/falsa
+se ejecute el código especificado. Por ejemplo:
+if (3 > 5 || 6 > 5) {
+    console.log ("Al menos uno es mayor que 5")
+} else {
+    console.log ("Ninguno de los numeros es mayor que 5")
+}
+En este caso, con que una de las expresiones dentro de la condicion, de verdadera, ya es suficiente para ejecutar el codigo.
+
+!
+Es un operador de negación. Devuelve el valor contrario al que se indica. Por ejemplo:
+let respuesta = true;
+if(respuesta === !true){
+    console.log ("Tu respuesta no es verdadera")
+} else {
+    console.log ("Tu respuesta si es verdadera")
+}
