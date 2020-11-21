@@ -90,8 +90,7 @@ function esPrimo(numero) {
   // Pista: un número primo solo es divisible por sí mismo y por 1
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
-  let i = 0
-  for (i = 2; i < numero; i++){
+  for (i = 0; i < numero; i++){
     if (numero % i === 0){
       return false
     } else {
