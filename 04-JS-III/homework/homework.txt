@@ -1,0 +1,9 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Arrays
+
+ARRAYS:
+        Un array es una lista de elementos, que puede contener muchos elementos o pocos elementos.
+        Los arrays pueden contener cualquier tipo de datos (numeros, strings, booleanos, funciones, arrays, etc.)
+        La sintaxis correcta para crear un array es:
+        let persona = ["Victoria", 25, "Traductora Pública de inglés", true];
