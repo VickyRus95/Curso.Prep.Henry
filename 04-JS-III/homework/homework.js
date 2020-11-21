@@ -24,7 +24,9 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-  
+  for (let i = 0; i < array.length; i++){
+    array[i] = array[i] + 1
+  } return array
 }
 
 function agregarItemAlFinalDelArray(array, elemento) {
@@ -50,30 +52,45 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
+  return palabras.join(" ")
 }
 
 function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
+  let str = array.join(" ")
+  return str.includes(elemento)
 }
 
 function agregarNumeros(numeros) {
   // "array" debe ser una matriz de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
+  let suma = 0;	
+  for (i = 0; i < numeros.length; i++){
+    suma += numeros[i];
+  } return suma
 }
 
 function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
+  let suma = 0;
+  for(i = 0; i < resultadosTest.length; i++){
+  suma += resultadosTest[i];
+}
+  let promedio = suma / resultadosTest.length
+  return promedio
 }
 
 function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
+  let resultado = Math.max(...numeros)
+  return resultado
 }
 
 function multiplicarArgumentos() {
@@ -81,6 +98,13 @@ function multiplicarArgumentos() {
   // Si no se pasan argumentos devuelve 0
   // Si se pasa un argumento, simplemente devuélvelo
   // Tu código:
+  let total = 1
+  if (arguments.length === 0){
+    return 0
+  }
+  for (i = 0; i < arguments.length; i++){
+    total = total * arguments [i]
+  } return total
 }
 
 // No modificar nada debajo de esta línea
